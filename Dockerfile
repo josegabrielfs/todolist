@@ -1,7 +1,7 @@
 FROM ubuntu:latest AS build
 
 RUN apt-get update
-RUM apt-get install openjdk-23-jdk -y
+RUN apt-get install openjdk-23-jdk -y
 
 COPY . .
 
